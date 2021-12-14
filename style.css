@@ -1,0 +1,139 @@
+
+@media screen and (min-width: 1024px) {
+
+.grid {
+    display: grid;   
+     grid-template-columns: 25% 50% 25%;
+}
+     
+header {
+    display: flex;
+    justify-content: center;
+    height:100%;
+}
+#Menu{
+    color: white;
+    background: linear-gradient(to bottom, red, orange, yellow, green,skyblue);
+    border: none;
+    float: left;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns:25%;
+    flex-direction: column;
+    width: 100px;
+    height: 180px;
+    border: 5px solid;
+}
+
+.titulo{
+    display: grid;
+    justify-content:center;
+    border: 2px solid;
+    height: 75px;
+    width: 300px;
+    font-family: 'Noto Sans', sans-serif;
+    background: linear-gradient(to left, red, orange, yellow, green, blue);
+    transform: skewY(5deg);
+}
+
+.titulocomunicacion{
+    display: flex;
+    justify-content:center;
+    border: 2px solid;
+    height: 60px;
+    width: 150px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: skyblue;
+    transform: skewY(5deg);
+}
+.tituloarquitectura{
+    display: flex;
+    justify-content:center;
+    border: 2px solid;
+    height: 60px;
+    width: 150px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: yellow;
+    transform: skewY(5deg);
+}
+.tituloasesorialegal{
+    display: flex;
+    justify-content:center;
+    border: 2px solid;
+    height: 60px;
+    width: 150px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: brown;
+    transform: skewY(5deg);
+}
+.tituloenfermeria{
+    display: flex;
+    justify-content:center;
+    border: 2px solid;
+    height: 60px;
+    width: 150px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: green;
+    transform: skewY(5deg);
+}
+.video{
+    display: grid;
+    grid-template-columns: auto;
+    background:white;
+}
+.parrafo{    
+    display: grid;
+    grid-template-columns:55%;
+    font-size: 25px;
+}
+
+.aside{
+    display: grid;
+    grid-template-columns:25%;
+    flex-direction: column;
+    color: white;
+    float: left;
+}
+
+.kit_de_higiene{ 
+        border: none;
+        float: left; 
+        width: 20%;
+        height: 20%;
+}
+.renders1{
+        border: none;
+        float: left; 
+        width: 20%;
+        height: 20%;
+}
+.renders2{
+        border: none;
+        float: left; 
+        width: 20%;
+        height: 20%;
+}
+#Tabla  {
+    background-color: white;
+    color:black;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    }
+    
+    th, td {
+    border: solid 1px black;
+    }
+    
+    thead{
+        background-color:skyblue;
+        border-bottom: solid 5px;
+        color: black;
+    }
+
+    footer{
+        background-color: black;
+        color: white
+  }
+}
